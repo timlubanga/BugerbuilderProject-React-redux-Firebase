@@ -1,0 +1,32 @@
+.Buger{
+    width:50%;
+    margin:auto;
+    height:250px; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    
+}
+
+@media(min-width:1300px) and(min-height:800px){
+    .Buger{
+        width:600px;
+        height:500px;
+    }
+}
+
+
+@media(min-width:500px) and(min-height:401px){
+    .Buger{
+        width:450px;
+        height:400px;
+    }
+}
+
+@media(min-width:500px) and(min-height:400px){
+    .Buger{
+        width:350px;
+        height:300px;
+    }
+}
+
